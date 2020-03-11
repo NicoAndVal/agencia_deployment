@@ -1,0 +1,23 @@
+{
+  "name": "intro-nodejs",
+  "version": "1.0.0",
+  "description": "Introduccion npm",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon server",
+    "start": "node server"
+  },
+  "author": "Nicolás Andrade",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  }
+}
